@@ -1,0 +1,54 @@
+.one {
+    background-color: rgb(8, 209, 209);
+    position: relative; 
+    border-radius: 0.5rem;
+}
+
+.two {
+    
+}
+
+.three {
+margin: 2rem;
+border: solid black;
+padding: 0.5rem;
+border-radius: 0.5rem;
+
+}
+
+.parent {
+position: relative;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: nowrap;
+    display: flex;
+}
+
+box1 {
+    position: absolute;
+    background-color: orangered;
+    width: 450px;
+    height: 400px;
+}
+box2 {
+    position: absolute;
+    background-color: orangered;
+    width: 900px;
+    height: 400px;
+}
+box3 {
+    position: absolute;
+    background-image: ;
+    
+}
+
+.parent-img {
+    position: relative;
+    justify-content: space-around;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+    
+}
