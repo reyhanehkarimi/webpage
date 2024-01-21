@@ -16,31 +16,43 @@ border-radius: 0.5rem;
 
 }
 
-.parent {
-position: relative;
+.container {
+    background-color: rgb(255, 255, 255);
+    position: relative;
     justify-content: space-around;
     flex-wrap: wrap;
-    flex-direction: nowrap;
+    flex-direction: row;
     display: flex;
-}
-
-box1 {
-    position: absolute;
-    background-color: orangered;
-    width: 450px;
-    height: 400px;
-}
-box2 {
-    position: absolute;
-    background-color: orangered;
-    width: 900px;
-    height: 400px;
-}
-box3 {
-    position: absolute;
-    background-image: ;
+    width: 1350px;
+    height: 600px;
+    margin: 2rem;
+    align-items: center;
     
 }
+
+.box1 {
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    width: 900px;
+    height: 400px;
+    display: inline-block;
+}
+.box2 {
+    position: absolute;
+    background-color: rgb(247, 242, 240);
+    width: 900px;
+    height: 400px;
+    display: inline-block;
+}
+.box3 {
+    position: absolute;
+    background-color: rgb(247, 242, 240);
+    width: 900px;
+    height: 400px;
+    display: inline-block;
+}
+
+
 
 .parent-img {
     position: relative;
